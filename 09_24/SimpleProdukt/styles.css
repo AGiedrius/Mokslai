@@ -1,0 +1,53 @@
+html, body {
+box-sizing: border-box;
+/* height: 100%; */
+}
+.black_header{
+    background-color:  black;
+    padding:1rem ;
+    color: white;
+    font-family: "Tangerine", cursive ;
+    font-size: 2.5rem;
+}
+.box_center{
+    width: 80vw;
+    margin: auto;
+    /* align-items: center;
+    justify-items: center; */
+    /* display: flex; */
+}
+img{
+    width: 60vw;
+    height: auto;
+    
+}
+.img_center{
+    width: 80vw;
+    margin-top: 1rem;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+ul.green_disc-marker li::marker{
+    list-style-type: disc;
+    color: green;
+}
+.down-2rem{
+    margin-top: 2rem;
+}
+.button_center{
+    padding: 1rem;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    display: flex;
+
+}
+.button_yellow{
+    background-color: rgb(236, 209, 117);
+    border: 0;
+    width: 150px;
+    height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}

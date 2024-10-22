@@ -1,0 +1,35 @@
+.open-sans {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    /* font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100; */
+  }
+
+
+html, body{
+    height: 100%;
+    box-sizing: border-box;
+    justify-items: center;
+    
+}
+body{
+    background-color: rgb(88,85, 72);
+    color: white;
+    font-family: open sans;
+    font-size: 0.8rem;
+}
+h1, h2 ,h3{
+    color: rgb(166, 192, 242);
+}
+
+img{
+    max-height: 300px;
+}
+.yellow{
+    color: yellow;
+}
+.red{
+    color: red;
+}
