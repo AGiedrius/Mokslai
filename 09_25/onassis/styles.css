@@ -1,0 +1,41 @@
+.agdasima-regular {
+    font-family: "Agdasima", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+.agdasima-bold {
+    font-family: "Agdasima", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+* {
+    box-sizing: border-box;
+    font-family: "Agdasima", sans-serif;
+    font-style: normal;
+}
+body{
+    background-color: rgb(238, 238, 238);
+}
+h1, h2, h3 {
+    font-family: "Agdasima", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+header{
+    width: 90vw;
+    height: auto;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+}
+p{
+    width: 90vw;
+    height: auto;
+    margin: auto;
+    justify-content: center;
+    text-align: left;
+}
+.border{
+    border: 1px solid rgb(221, 221, 221);
+}
