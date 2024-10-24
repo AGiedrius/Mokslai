@@ -13,6 +13,9 @@
     box-sizing: border-box;
     font-family: "Agdasima", sans-serif;
     font-style: normal;
+    font-size: 12px;
+    padding: 0rem;
+    margin: 0rem;
 }
 body{
     background-color: rgb(238, 238, 238);
@@ -21,6 +24,20 @@ h1, h2, h3 {
     font-family: "Agdasima", sans-serif;
     font-style: normal;
     font-weight: 400;
+}
+h1{
+    font-size:4rem ;
+    margin: 1rem;
+
+}
+h2{
+    font-size: 2rem;
+}
+h3{
+    font-size: 1.5rem;
+    margin-top:  1rem;
+    margin-bottom: 1rem;
+    margin-left: 0rem;
 }
 header{
     width: 90vw;
@@ -38,4 +55,44 @@ p{
 }
 .border{
     border: 1px solid rgb(221, 221, 221);
+    align-items: center;
+}
+.border_bacground-grey{
+    border: 1px solid rgb(221, 221, 221);
+    background-color: #dddddd;
+    text-align: center;
+    align-items: center;
+    margin: 0.2rem;
+    font-size: 0.8rem;
+    padding: 0.5rem;
+    width: 89vw;
+   
+}
+.article_box{
+    border: 1px solid #dddddd;
+    width: 90vw;
+    margin: auto;
+    margin-top: 1rem;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+}
+img{
+    max-width: 30vw;
+}
+.foloving_list-box{
+    width: 90vw;
+    margin: auto;
+    padding-left: 2rem;
+    text-align: left;
+}
+footer{
+    width: 90vw;
+    margin: auto;
+    padding-top: 0.7rem;
+    justify-content: center; 
+    align-items: center;
+    display: flex;
+    font-size: 0.8rem;
 }
