@@ -1,4 +1,11 @@
-let kazkas = (n) => n / 23;
-
-console.log(kazkas(1000));
-
+let startNumber = +prompt("Pirmas skaicius?:");
+let endNumber = +prompt("Paskutinis skaicius?:");
+let numberArray = [];
+let rez = (startNumber, endNumber) => {
+  for (startNumber; startNumber <= endNumber; startNumber++) {
+    numberArray.push(startNumber);
+    if (startNumber < endNumber) numberArray.push("_");
+  }
+  return numberArray;
+};
+console.log(rez(startNumber, endNumber).join(""));

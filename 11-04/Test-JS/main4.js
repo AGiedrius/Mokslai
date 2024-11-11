@@ -1,0 +1,11 @@
+"use strict";
+const costBrick = 0.5;
+const surfaceBrick = .2*.1;
+let hWall = +prompt("Iveskite sienos auksti:");
+let wWall = +prompt("Iveskite sienos ploti:");
+let surfaceWall = hWall*wWall;
+let BrickSum = surfaceWall/surfaceBrick;
+let cach= BrickSum*costBrick;
+BrickSum=Math.round(BrickSum);
+cach=Math.round(cach);
+alert(`Plytu skaicius:  ${ BrickSum} , plytu kaina ${cach}`);

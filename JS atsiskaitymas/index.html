@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div>
+
+    </div>
+    <h1>Simple Interest Calculator</h1>
+      <form id="simplInters">
+       <label for="number">Iveskite skaiciu:</label><br>
+         <p>Amount</p>
+        <input type="text" id="amount" name="amount" placeholder="Indėlio suma" required>
+        <br> <br>  
+        <p>Interest rate</p>
+        <input type="range" min="1" max="100" value="10" class="slider" id="myRange">  
+        
+        <br><br>
+         <p>No, of Years</p>
+         <select name="years" id="years">
+          <option value="1">1 year</option>
+          <option value="2">2 year</option>
+          <option value="3">3 year</option>
+          <option value="4">4 year</option>
+          <option value="5">5 year</option>
+          <option value="6">6 year</option>
+          <option value="7">7 year</option>
+          <option value="8">8 year</option>
+        </select>
+        <br><br>
+        <input type="submit" value="Submit">
+      </form>
+      <div id="result"></div>
+    </div> 
+  </body>
+  <script type="module" src="src/main4.js"></script>
+</html>
