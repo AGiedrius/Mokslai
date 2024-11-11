@@ -1,0 +1,69 @@
+* {
+  box-sizing: border-box;
+}
+
+.background_first_multi {
+  height: 67vh;
+  width: 100vw;
+  background: linear-gradient(to right, #000000, #ffffff40),
+    url("/img/hero-cover.jpg");
+  /* url("/img/filter.png"); */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.aling_nav {
+  width: 60vw;
+  margin: 10rem;
+  color: white;
+}
+.montserrat_H1 {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+.montserrat_p {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+button {
+  height: 2.5rem;
+  border-color: #ffffff, solid, 0.2rem;
+  border: solid;
+  border-radius: 37px;
+  background-color: hsl(0, 0%, 0%, 0%);
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 0.8rem;
+  margin: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  width: 10rem;
+}
+button:hover {
+  background-color: #50a3ea;
+}
+.button_block_1 {
+  display: flex;
+}
+.fiatures_1 {
+  height: 33vh;
+  background-color: rgb(38, 43, 64);
+  color: white;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
+}
