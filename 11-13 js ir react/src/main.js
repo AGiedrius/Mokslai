@@ -36,4 +36,4 @@ const calculate = (num1, num2, operation) => {
     // alert(error.mesage);
   }
 };
-console.log(calculate(100, 33, "a"));
+console.log(calculate(100, 33, "-"));
