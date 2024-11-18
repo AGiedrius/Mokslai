@@ -7,7 +7,7 @@ export default function Header() {
       <img
         src="./public/kofee.jpg"
         alt="Bla bla"
-        className="header-img object-fit-cover"
+        className="header-img w-100 object-fit-cover"
       />
     </header>
   );
