@@ -2,7 +2,6 @@ import { useEffect, useState } from "react";
 
 const Books = () => {
   const [books, setBooks] = useState([]);
-  // const [showNewTask, setShowNewTask] = useState(false);
 
   useEffect(() => {
     const fetchBooks = async () => {
@@ -40,26 +39,6 @@ const Books = () => {
   return (
     <div>
       <h2>Turimos knygos</h2>
-      {/* <button
-        className="btn btn-primary mb-3"
-        onClick={() => setShowNewTask(!showNewTask)}
-      >
-        Naujas įrašas
-      </button> */}
-      {/* {showNewTask && <NewTask addTask={addTask} />} */}
-      {/* <div className="card" style="width: 18rem;">
-        <img src="..." className="card-img-top" alt="...">
-        <div className="card-body">
-          <h5 className="card-title">Card title</h5>
-          <p className="card-text">
-            Some quick example text to build on the card title and make up the
-            bulk of the cards content.
-          </p>
-          <a href="#" className="btn btn-primary">
-            Go somewhere
-          </a>
-        </div>
-      </div> */}
 
       {books.map((books) => (
         <div key={books.id} className={books.reserved ? "reserved" : ""}>
