@@ -1,0 +1,52 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "title": "Mano gyvenimas",
+      "author": "Garpijus Pjupijus",
+      "category": 1,
+      "price": 10,
+      "cover": "./src/assets/t1.jpg",
+      "reserved": false
+    },
+    {
+      "id": 2,
+      "title": "tarabumll",
+      "author": "bala",
+      "category": 3,
+      "price": 23,
+      "cover": "#",
+      "reserved": false
+    },
+    {
+      "id": "64be",
+      "title": "Knygiukas",
+      "author": "Rasalas Tamsus",
+      "category": "Publicistika",
+      "price": "150",
+      "cover": "./src/assets/t4.jpg"
+    },
+    {
+      "id": "f636",
+      "title": "Knygiukas",
+      "author": "Rasalas Tamsus",
+      "category": "Publicistika",
+      "price": "150",
+      "cover": "./src/assets/t4.jpg"
+    }
+  ],
+  "category": [
+    {
+      "categoryId": 1,
+      "description": "Mokslo populiarinimo"
+    },
+    {
+      "categoryId": 2,
+      "description": "Detektyvas"
+    },
+    {
+      "categoryId": 3,
+      "description": "Fantastika"
+    }
+  ]
+}
